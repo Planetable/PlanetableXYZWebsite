@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block title %}{{ page.title | safe }}{% endblock %}
+{% block head %}
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+          $('.scroll-top').fadeIn();
+        } else {
+          $('.scroll-top').fadeOut();
+        }
+    });
+
+    $('.scroll-top').click(function () {
+      $("html, body").animate({
+        scrollTop: 0
+      }, 100);
+      return false;
+    });
+  });
+</script>
+{% endblock %} {% block main %}
+<div class="markdown-content">
+  <h1>{{ page.title | safe }}</h1>
+  {% include 'toc.html' %} {{ page.content | safe }}
+</div>
+{% endblock main %} {% block bottom %}
+<button class="scroll-top" data-scroll="up" type="button"><span>❯<span></button>
+{% endblock %}

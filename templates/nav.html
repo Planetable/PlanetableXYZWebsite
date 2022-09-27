@@ -1,0 +1,12 @@
+<div id="nav">
+  <div class="nav-inner">
+    {% set home = ['/', 'Home'] %}
+    {% set guides = ['/guides/', 'Guides'] %}
+    {% set faq = ['/faq/', 'FAQ'] %}
+    {% set community = ['/community/', 'Community'] %}
+    {% set items = [home, guides, faq, community] %}
+    {% for item in items %}
+    <a href="{% if item[0] == '/' %}/{% else %}{{ item[0] }}{% endif %}" class="nav-item{% if current_path == item[0] %} active{% endif %}{% if '/guides/' in current_path and item[0] == '/guides/' %} active{% endif %}">{{ item[1] }}</a>
+    {% endfor %}
+  </div>
+</div>

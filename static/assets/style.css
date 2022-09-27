@@ -1,0 +1,267 @@
+:root {
+    --sidebar-background-color: #efefe0;
+    --main-background-color: #fffff0;
+
+    --backdrop-blur-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+code {
+    font-size: 0.9em;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #336bad;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+#sidebar {
+    width: 40%;
+    background-color: var(--sidebar-background-color);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sidebar-inner {
+    width: 100%;
+    max-width: 400px;
+    background-color: transparent;
+    padding: 40px;
+}
+
+.logo {
+    background-image: url("planetable-logo-light.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.logo-name {
+    text-align: center;
+    font-family: system-ui;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#main {
+    width: 60%;
+    min-height: 100vh;
+    background-color: var(--main-background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nav {
+    width: 100%;
+}
+
+.nav-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    height: 40px;
+    background-color: var(--main-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 20px 40px;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #336bad;
+}
+
+.nav-item.active {
+    color: #222;
+    border-bottom: 2px solid #222;
+}
+
+.main-inner {
+    flex: 1;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.markdown-content {
+
+}
+
+.markdown-content p {
+    font-size: 1.2em;
+    font-family: system-ui;
+    line-height: 150%;
+}
+
+.markdown-content ul {
+    line-height: 150%;
+}
+
+.markdown-content h1, .markdown-content h2,  .markdown-content h3 {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.markdown-content p:last-child, .markdown-content h1:last-child, .markdown-content h2:last-child, .markdown-content h3:last-child, .markdown-content ul:last-child {
+    margin-bottom: 0;
+}
+
+.markdown-content p:first-child, .markdown-content h1:first-child, .markdown-content h2:first-child, .markdown-content h3:first-child,  .markdown-content ul:first-child {
+    margin-top: 0;
+}
+
+.toc {
+    margin-top: 20px;
+    margin-bottom: 1.5em;
+    padding-inline-start: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    list-style: none;
+    line-height: 150%;
+}
+
+.toc li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgba(0, 0, 0, 0.2); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.download-button:link, .download-button:visited, .download-button:active {
+    cursor: pointer;
+    border-radius: 60px;
+    padding: 20px 40px 20px 80px;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 1.2em;
+    background-color: #ffc110;
+    color: #222;
+    background-image: url("./download.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 20px 10px;
+}
+
+.latest-version, .release-date {
+    display: inline-block;
+    font-size: 0.8em;
+    color: #888;
+    text-align: center;
+}
+
+.screenshot {
+    width: 100%;
+}
+
+code {
+    line-break: anywhere;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.scroll-top {
+    z-index: 99;
+    width: 60px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 6px;
+    background-color: rgba(240, 240, 220, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(var(--backdrop-blur-radius));
+    -webkit-backdrop-filter: blur(var(--backdrop-blur-radius));
+}
+
+.scroll-top:hover {
+    cursor: pointer;
+}
+
+.scroll-top span {
+    transform: rotate(-90deg);
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 1.5em;
+    margin-top: -2px;
+}
+
+@media (max-width: 600px) {
+    #app {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .sidebar-inner {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #main {
+        width: 100%;
+        min-height: 1vh;
+        align-items: initial;
+    }
+}

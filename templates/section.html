@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block main %}
+<div class="markdown-content">
+{{ section.content | safe }}
+{% for post in section.pages %}
+  <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+  <p>{{ post.description }}</p>
+{% endfor %}
+</div>
+{% endblock %}
