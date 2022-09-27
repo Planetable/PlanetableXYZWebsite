@@ -3,6 +3,17 @@ title = "Community"
 template = "page.html"
 +++
 
+## Blog
+
+Our blog is built with Planet, and you can follow it with Planet too.
+
+<a href="https://planetable.eth.limo" target="_blank">planetable.eth</a>
+
+<figure>
+  <img src="../../assets/screenshots/planet-blog.png" alt="planetable.eth" class="screenshot" />
+  <figcaption>planetable.eth</figcaption>
+</figure>
+
 ## nfty chat
 
 Connect and chat with Planet users, developers, and crypto frens. nfty chat is an awesome place. 
@@ -27,3 +38,4 @@ Swift library for performing ENS queries: address, contenthash, NFT avatar, text
 
 如果你说中文，欢迎加入在 Telegram 上的 [Planet 中文用户群](https://github.com/Planetable)
 
+欢迎在 Planet 里 Follow 我们的中文 Blog 网站 <a href="https://olivida.eth.limo" target="_blank">olivida.eth</a>
