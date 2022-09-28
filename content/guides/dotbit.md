@@ -20,7 +20,7 @@ Right-click your website under My Planets and select Copy IPNS. You will get its
 
 ## Step 2 · Add DWeb Record
 
-Go to the Manage dashboard, click Manage Data, and add a new record under DWeb. Select `IPNS` as key, and provide the value you get from Copy IPNS.
+Go to the [.bit Manage dashboard](https://data.did.id), click Manage Data, and add a new record under DWeb. Select `IPNS` as key, and provide the value you get from Copy IPNS.
 
 <figure>
   <img src="../../assets/screenshots/dotbit-add-ipns.png" alt=".bit Add IPNS" class="screenshot" />
