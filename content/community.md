@@ -36,6 +36,10 @@ Swift library for performing ENS queries: address, contenthash, NFT avatar, text
 
 ## 中文用户群
 
-如果你说中文，欢迎加入在 Telegram 上的 [Planet 中文用户群](https://github.com/Planetable)
+如果你说中文，欢迎加入在 Telegram 上的 [Planet 中文用户群](https://t.me/+5bl7FIsxeChlOWIz)
 
 欢迎在 Planet 里 Follow 我们的中文 Blog 网站 <a href="https://olivida.eth.limo" target="_blank">olivida.eth</a>
+
+如果你发现这个网站本身的问题，可以反馈到网站在 GitHub 上的页面：
+
+<a href="https://github.com/Planetable/PlanetableXYZWebsite" target="_blank">https://github.com/Planetable/PlanetableXYZWebsite</a>
