@@ -144,6 +144,13 @@ a:hover {
     margin-top: 0;
 }
 
+hr {
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .toc {
     margin-top: 20px;
     margin-bottom: 1.5em;
