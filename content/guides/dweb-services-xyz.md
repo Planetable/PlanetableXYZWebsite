@@ -1,7 +1,7 @@
 +++
 title = "DWebServices.xyz for Hosted IPNS Records"
 description = "Use API from DWebServices.xyz for hosted IPNS records."
-weight = 50
+weight = 2010
 template = "page.html"
 +++
 

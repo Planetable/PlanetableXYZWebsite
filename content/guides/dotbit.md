@@ -1,7 +1,7 @@
 +++
 title = "Link a Website to .bit"
 description = "Add IPNS built with Planet to .bit DWeb record."
-weight = 40
+weight = 2000
 template = "page.html"
 +++
 
