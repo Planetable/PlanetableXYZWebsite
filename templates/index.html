@@ -2,7 +2,7 @@
 {% block head %}
 <script>
 const appcastURL = "https://opensource.planetable.xyz/planet/appcast.xml?r=" + Math.random();
-const fallbackDownloadURL = "https://opensource.planetable.xyz/planet/release-0.9.2/Planet.zip";
+const fallbackDownloadURL = "https://opensource.planetable.xyz/planet/release-0.11.0/Planet.zip";
 window.addEventListener('DOMContentLoaded', (event) => {
   document.querySelector('.download-button').href = fallbackDownloadURL;
   axios.get(appcastURL)
@@ -38,7 +38,7 @@ Planet is a free and open source tool for publishing and following web content. 
 </p>
 <div class="section">
   <div class="action-wrapper">
-    <a class="download-button" href="https://opensource.planetable.xyz/planet/release-0.9.2/Planet.zip">Download for Mac</a>
+    <a class="download-button" href="https://opensource.planetable.xyz/planet/release-0.11.0/Planet.zip">Download for Mac</a>
     <span class="latest-version">The latest version</span>
     <span class="release-date">Released on</span>
   </div>
