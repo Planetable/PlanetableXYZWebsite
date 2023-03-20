@@ -91,6 +91,6 @@ However, Safari does not support this kind of URL as of this writing: `*.localho
 
 [https://bugs.webkit.org/show_bug.cgi?id=160504](https://bugs.webkit.org/show_bug.cgi?id=160504)
 
-To preventing that redirect on Safari, you need to replace `localhost` with `127.0.0.1` so that the redirect will not occur:
+To prevent that redirect on Safari, you need to replace `localhost` with `127.0.0.1` so that the redirect will not occur:
 
 `http://127.0.0.1:18181/ipfs/bafybeiepywaseoxbaccdblzm6thhqjelkwbamd3guh24wfzba2wwvz6hve`
