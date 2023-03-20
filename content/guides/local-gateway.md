@@ -56,7 +56,7 @@ If a DNS name has a <a href="https://dnslink.dev/" target="_blank">DNSLink</a> T
 
 #### IPNS
 
-Blogs and websites published from Planet are IPNS. Other Planet users can simply use Follow Planet to receive the latest updates, or these can also be accessed through the local gateway. For example, the IPNS powered <a href="https://app.ens.domains/name/planetable.eth/details" target="_blank">planetable.eth</a> is:
+[Blogs](@/guides/create-planet.md) and [websites](@/guides/published-folders.md) published from Planet are IPNS. Other Planet users can simply use Follow Planet to receive the latest updates, or these can also be accessed through the local gateway. For example, the IPNS powered <a href="https://app.ens.domains/name/planetable.eth/details" target="_blank">planetable.eth</a> is:
 
 <code>k51qzi5uqu5dgv8kzl1anc0m74n6t9ffdjnypdh846ct5wgpljc7rulynxa74a</code>
 

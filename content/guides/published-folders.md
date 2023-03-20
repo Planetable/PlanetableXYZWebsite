@@ -5,6 +5,8 @@ weight = 100
 template = "page.html"
 +++
 
+## Publish Local Folders as IPNS
+
 Easily publish local folders using the built-in IPFS node.
 
 <figure>
@@ -14,7 +16,7 @@ Easily publish local folders using the built-in IPFS node.
 
 Find this feature in the menu under: Tools -> Published Folders
 
-Once your folder has been successfully published, simply copy its IPNS for convenient sharing.
+Once your folder has been successfully published, simply copy its IPNS for convenient sharing. Other Planet users will be able to load the IPNS with their [local gateway](@/guides/local-gateway.md).
 
 <figure>
   <img src="../../assets/screenshots/published-folders-dashboard.png" alt="Published Folders Dashboard" class="screenshot" />
