@@ -52,6 +52,9 @@ a:hover {
     max-width: 400px;
     background-color: transparent;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
@@ -68,6 +71,12 @@ a:hover {
     font-family: system-ui;
     font-size: 3em;
     font-weight: 800;
+    background-image: url("planet-title.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 60%;
+    aspect-ratio: 1800/380;
 }
 
 #main {
