@@ -225,12 +225,17 @@ code {
 }
 
 figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
     text-align: center;
 }
 
 figure {
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .scroll-top {
@@ -297,6 +302,14 @@ a.follow-in-planet:link, a.follow-in-planet:visited {
 a.follow-in-planet:hover {
     background-color: #f9f9f9;
     text-decoration: none;
+}
+
+pre {
+    padding: 10px;
+    border-radius: 3px;
+    white-space: pre-wrap;
+    font-size: 12px;
+    line-height: 1.6;
 }
 
 @media (max-width: 700px) {
