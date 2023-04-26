@@ -63,3 +63,39 @@ These are the built-in templates in the folder:
 - [grid](https://github.com/Planetable/SiteTemplateGrid)
 
 When the app updates, it will attempt to update these templates as well. However, if a .git subfolder is detected, it indicates the folder could be part of the developer environment, and the app will not overwrite it.
+
+### Template Showcase: Plain
+
+This is the default template. It resembles a minimalist operating system look and feel. It features both dark and light modes.
+
+- Live Demo: [planetable.eth](https://planetable.eth.limo)
+- Source Code: [Planetable/SiteTemplatePlain](https://github.com/Planetable/SiteTemplatePlain)
+
+<figure>
+  <img src="../../assets/templates/plain.png" alt="Template: Plain" class="screenshot" />
+  <figcaption>planetable.eth with the Plain template</figcaption>
+</figure>
+
+### Template Showcase: Grid
+
+If your blog consists of many photos, this is the template for you. It features both dark and light modes.
+
+- Live Demo: [yihanphotos.eth](https://yihanphotos.eth.limo)
+- Source Code: [Planetable/SiteTemplateGrid](https://github.com/Planetable/SiteTemplateGrid)
+
+<figure>
+  <img src="../../assets/templates/grid.png" alt="Template: Grid" class="screenshot" />
+  <figcaption>yihanphotos.eth with the Grid template</figcaption>
+</figure>
+
+### Template Showcase: 8-bit
+
+This experimental template demonstrates that complex JS and graphics are possible with Planet templates. It has a retro gaming vibe.
+
+- Live Demo: [gamedb.eth](https://gamedb.eth.limo)
+- Source Code: [Planetable/SiteTemplate8bit](https://github.com/Planetable/SiteTemplate8bit)
+
+<figure>
+  <img src="../../assets/templates/8-bit.png" alt="Template: 8-bit" class="screenshot" />
+  <figcaption>gamedb.eth with the 8-bit template</figcaption>
+</figure>
