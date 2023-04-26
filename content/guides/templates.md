@@ -5,6 +5,19 @@ weight = 102
 template = "page.html"
 +++
 
+## Build New Template
+
+You can create a new template using HTML, CSS, and JS. When the Planet app renders a site, the template can utilize the values provided in the context by the app. The template system is powered by [Stencil](https://github.com/stencilproject/Stencil), a simple yet powerful template language for Swift.
+
+## Template Browser
+
+You can find all the currently installed templates in Tools -> Template Browser. If you plan to build your own template, [VS Code](https://code.visualstudio.com/) is recommended. After installing VS Code, you can right-click on a template and select "Open in VS Code."
+
+<figure>
+  <img src="../../assets/screenshots/template-browser-vscode.png" alt="Template Browser: Open in VS Code" class="screenshot" />
+  <figcaption>Tools -&gt; Template Browser -&gt; Open in VS Code</figcaption>
+</figure>
+
 ## Add Template from GitHub
 
 By default, all templates are stored in the following folder:
