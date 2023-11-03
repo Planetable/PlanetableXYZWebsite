@@ -14,12 +14,6 @@ Our blog is built with Planet, and you can follow it with Planet too.
   <figcaption>planetable.eth</figcaption>
 </figure>
 
-## nfty chat
-
-Connect and chat with Planet users, developers, and crypto frens. nfty chat is an awesome place. 
-
-[https://nftychat.xyz/community/568aefe](https://nftychat.xyz/community/568aefe)
-
 ## GitHub
 
 Planet and its sub projects are MIT-licensed open source projects:

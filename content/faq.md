@@ -11,10 +11,6 @@ Planet is a native macOS app created with SwiftUI 3, so currently, it only runs 
 
 It will happen in 2023.
 
-## Do you have a Discord server?
-
-We have a community at <a href="https://nftychat.xyz/community/568aefe" target="_blank">nftychat.xyz</a>.  Welcome to join!
-
 ## Where can I report a bug?
 
 If you have encountered a problem, please report it to the dev team by creating an issue on GitHub.
