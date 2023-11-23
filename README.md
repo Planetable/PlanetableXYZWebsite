@@ -1,0 +1,3 @@
+# Run
+
+`zola serve`
