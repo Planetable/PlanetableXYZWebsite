@@ -23,9 +23,4 @@ Many IPFS public gateways can load the website on .eth domain by putting the dom
 
 * <a href="https://ipfs.io/ipns/planetable.eth" target="_blank">ipfs.io/ipns/planetable.eth</a>
 * <a href="https://dweb.link/ipns/planetable.eth" target="_blank">dweb.link/ipns/planetable.eth</a>
-* <a href="https://cf-ipfs.com/ipns/planetable.eth" target="_blank">cf-ipfs.com/ipns/planetable.eth</a>
-
-Cloudflare also maintains .eth.link and .eth.domains, so you can .link or .domains like this:
-
-* <a href="https://planetable.eth.link/" target="_blank">planetable.eth.link</a>
-* <a href="https://planetable.eth.domains/" target="_blank">planetable.eth.domains</a>
+* <a href="https://flk-ipfs.xyz/ipns/planetable.eth" target="_blank">flk-ipfs.xyz/ipns/planetable.eth</a>
