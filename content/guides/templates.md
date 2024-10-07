@@ -76,6 +76,18 @@ This is the default template. It resembles a minimalist operating system look an
   <figcaption>planetable.eth with the Plain template</figcaption>
 </figure>
 
+### Template Showcase: Sepia
+
+Sepia is designed for microblogging and rich media content.
+
+- Live Demo: [sol.build](https://sol.build/)
+- Source Code: [Planetable/SiteTemplateSepia](https://github.com/Planetable/SiteTemplateSepia)
+
+<figure>
+  <img src="../../assets/templates/sepia.png" alt="Template: Sepia" class="screenshot" />
+  <figcaption>sol.build with the Sepia template</figcaption>
+</figure>
+
 ### Template Showcase: Grid
 
 If your blog consists of many photos, this is the template for you. It features both dark and light modes.
