@@ -7,6 +7,8 @@ template = "page.html"
 
 Solana Name Service (<a href="https://sns.id/" target="_blank">sns.id</a>) is an identity system running on the Solana blockchain. It supports adding an IPNS record to the name, and furthermore, there is a gateway to access `.sol` names with IPFS/IPNS records.
 
+You can register your Solana name at <a href="https://sns.id/" target="_blank">sns.id</a>. <a href="https://phantom.app/" target="_blank">Phantom</a> wallet app is recommended, and have some USDC in the wallet.
+
 ## Step 1 · Copy IPNS
 
 Right-click your website under My Planets and select Copy IPNS. You will get its IPNS in the pasteboard, and it will be a long string that starts with `k51`.
