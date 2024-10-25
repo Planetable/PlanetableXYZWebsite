@@ -59,6 +59,7 @@ After the new template is recognized, you can find it in the Template Browser un
 These are the built-in templates in the folder:
 
 - [plain](https://github.com/Planetable/SiteTemplatePlain)
+- [sepia](https://github.com/Planetable/SiteTemplateSepia)
 - [gamedb](https://github.com/Planetable/SiteTemplate8bit)
 - [grid](https://github.com/Planetable/SiteTemplateGrid)
 
