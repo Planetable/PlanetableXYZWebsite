@@ -31,9 +31,9 @@ And save the change. .bit does not need you to pay gas when you update the recor
 
 ## Step 3 · Access
 
-After the DWeb record becomes effective, you can access your website using the .bit.site public gateway like this:
+After the DWeb record becomes effective, you can access your website using the .bit.ink public gateway like this:
 
-<a href="https://planetable.bit.site" target="_blank">planetable.bit.site</a>
+<a href="https://planetable.bit.ink" target="_blank">planetable.bit.ink</a>
 
 You can also use .bit domain in Follow Planet.
 
